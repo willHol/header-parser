@@ -1,0 +1,22 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "A service which returns info contained in request headers",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willHol/header-parser.git"
+  },
+  "author": "William Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willHol/header-parser/issues"
+  },
+  "homepage": "https://github.com/willHol/header-parser#readme",
+  "dependencies": {
+    "express": "^4.15.1"
+  }
+}
