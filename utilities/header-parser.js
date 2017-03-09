@@ -1,7 +1,7 @@
-module.exports = function(request) {
-	let ipAddress = request.socket.remoteAddress;
-	let software = request.headers['user-agent'].split(/[()]/)[1];
-	let language = request.headers['accept-language'].split(',')[0];
+module.exports = (request) => {
+  const ipAddress = request.socket.remoteAddress;
+  const software = request.headers['user-agent'].split(/[()]/)[1];
+  const language = request.headers['accept-language'].split(',')[0];
 
-	return [ipAddress, software, language];
-}
+  return [ipAddress, software, language];
+};
